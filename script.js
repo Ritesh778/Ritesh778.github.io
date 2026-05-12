@@ -99,3 +99,42 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     if (target) target.scrollIntoView({ behavior: 'smooth' });
   });
 });
+
+// Typewriter animation for hero roles
+(function() {
+  const roles = [
+    'AI Engineer',
+    'Data Scientist',
+    'ML Engineer',
+    'Data Analyst',
+    'Researcher'
+  ];
+  const el = document.getElementById('typewriter');
+  if (!el) return;
+  let roleIdx = 0, charIdx = 0, deleting = false;
+
+  function type() {
+    const current = roles[roleIdx];
+    if (!deleting) {
+      el.textContent = current.substring(0, charIdx + 1);
+      charIdx++;
+      if (charIdx === current.length) {
+        deleting = true;
+        setTimeout(type, 1800);
+        return;
+      }
+      setTimeout(type, 80);
+    } else {
+      el.textContent = current.substring(0, charIdx - 1);
+      charIdx--;
+      if (charIdx === 0) {
+        deleting = false;
+        roleIdx = (roleIdx + 1) % roles.length;
+        setTimeout(type, 400);
+        return;
+      }
+      setTimeout(type, 40);
+    }
+  }
+  setTimeout(type, 800);
+})();
