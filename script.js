@@ -2,7 +2,7 @@ const button = document.querySelector('.menu-button');
 const navigation = document.querySelector('#main-navigation');
 const main = document.querySelector('main');
 
-['news', 'about', 'experience', 'education', 'skills', 'research', 'honors', 'projects', 'service', 'credentials', 'contact']
+['about', 'news', 'research', 'projects', 'experience', 'education', 'skills', 'honors', 'service', 'credentials', 'contact']
   .map(id => document.getElementById(id))
   .filter(Boolean)
   .forEach(section => main.appendChild(section));
