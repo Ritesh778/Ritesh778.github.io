@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" fill="none">
+  <rect width="640" height="400" fill="#E9EFE9"/>
+  <path d="M0 50H640M0 100H640M0 150H640M0 200H640M0 250H640M0 300H640M0 350H640M50 0V400M100 0V400M150 0V400M200 0V400M250 0V400M300 0V400M350 0V400M400 0V400M450 0V400M500 0V400M550 0V400M600 0V400" stroke="#D8E2D9" stroke-width="1"/>
+  <path d="M0 315C90 288 155 333 250 305C341 278 388 297 466 274V400H0V315Z" fill="#DFE8E0"/>
+  <rect x="48" y="58" width="292" height="232" rx="8" fill="#FAFCF9" stroke="#C8D6CA" stroke-width="2"/>
+  <path d="M77 91H220M77 104H184" stroke="#788D7C" stroke-width="5" stroke-linecap="round"/>
+  <rect x="77" y="126" width="230" height="127" rx="5" fill="#EEF3EE" stroke="#D2DDD3" stroke-width="2"/>
+  <path d="M110 222V176L143 150L174 176V222M100 222H187M127 176H160M224 159H282M224 178H267M224 197H281M224 216H260" stroke="#486A53" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="143" cy="181" r="13" fill="#BBD0BE" stroke="#486A53" stroke-width="4"/>
+  <path d="M187 188H207" stroke="#486A53" stroke-width="4" stroke-dasharray="4 7"/>
+  <rect x="376" y="91" width="216" height="166" rx="8" fill="#FCFDFC" stroke="#C8D6CA" stroke-width="2"/>
+  <path d="M401 119H516" stroke="#263B2D" stroke-width="9" stroke-linecap="round"/>
+  <path d="M401 149H565M401 168H548" stroke="#C8D3C9" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="408" cy="198" r="9" fill="#547B5C"/>
+  <path d="M404 198L407 201L413 194" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M430 198H560M430 215H530" stroke="#87978A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M340 174H371" stroke="#547B5C" stroke-width="4" stroke-linecap="round"/>
+  <path d="M362 165L371 174L362 183" stroke="#547B5C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="376" y="278" width="216" height="42" rx="21" fill="#31513B"/>
+  <circle cx="400" cy="299" r="5" fill="#B9D2BC"/>
+  <text x="416" y="305" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.1">ABB ACCELERATOR 2026</text>
+  <text x="48" y="345" fill="#31513B" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">FIXTRACE AI</text>
+  <text x="48" y="369" fill="#65766A" font-family="Arial, sans-serif" font-size="12" letter-spacing="1.4">EVIDENCE-GROUNDED TROUBLESHOOTING</text>
+</svg>
